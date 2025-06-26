@@ -16,9 +16,12 @@ namespace MiniChat.Controllers
         public IActionResult Index()
         {
             var messages = _context.Zpravy
-                .OrderBy(m => m.Cas)
-                .Take(20)
-                .ToList();
+        .OrderByDescending(m => m.Cas)  // Nejnovější jako první
+        .Take(20)                        // Vezmi 20
+        .ToList()                        // Přepni na paměť
+        .OrderBy(m => m.Cas)             // Zase seřaď chronologicky
+        .ToList();                       // Výsledek
+
 
             return View(messages);
         }
