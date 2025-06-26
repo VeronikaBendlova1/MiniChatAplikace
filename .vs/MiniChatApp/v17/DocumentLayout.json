@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "F:\\MiniChatApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|f:\\minichatapp\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|f:\\minichatapp\\wwwroot\\css\\chat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|solutionrelative:wwwroot\\css\\chat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|f:\\minichatapp\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|f:\\minichatapp\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|f:\\minichatapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "chat.css",
               "DocumentMoniker": "F:\\MiniChatApp\\wwwroot\\css\\chat.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\chat.css",
@@ -68,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\MiniChatApp\\Views\\Chat\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Chat\\Index.cshtml",
@@ -76,18 +76,17 @@
               "RelativeToolTip": "Views\\Chat\\Index.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-26T07:40:15.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T07:40:15.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ChatController.cs",
               "DocumentMoniker": "F:\\MiniChatApp\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
               "ToolTip": "F:\\MiniChatApp\\Controllers\\ChatController.cs",
               "RelativeToolTip": "Controllers\\ChatController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBkAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T07:38:06.329Z",
               "EditorCaption": ""
@@ -114,8 +113,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAADcAAAAAAAAAAADwv1IAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T07:33:06.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T07:33:06.059Z"
             },
             {
               "$type": "Document",
@@ -131,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "F:\\MiniChatApp\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
@@ -139,8 +137,7 @@
               "RelativeToolTip": "Hubs\\ChatHub.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T12:26:41.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T12:26:41.335Z"
             },
             {
               "$type": "Document",
