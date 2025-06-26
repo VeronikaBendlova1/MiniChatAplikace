@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "H:\\MiniChatApp\\MiniChatApp.csproj": {}
+    "F:\\MiniChatApp\\MiniChatApp.csproj": {}
   },
   "projects": {
-    "H:\\MiniChatApp\\MiniChatApp.csproj": {
+    "F:\\MiniChatApp\\MiniChatApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\MiniChatApp\\MiniChatApp.csproj",
+        "projectUniqueName": "F:\\MiniChatApp\\MiniChatApp.csproj",
         "projectName": "MiniChatApp",
-        "projectPath": "H:\\MiniChatApp\\MiniChatApp.csproj",
-        "packagesPath": "C:\\Users\\ROLLO\\.nuget\\packages\\",
-        "outputPath": "H:\\MiniChatApp\\obj\\",
+        "projectPath": "F:\\MiniChatApp\\MiniChatApp.csproj",
+        "packagesPath": "C:\\Users\\Tomas\\.nuget\\packages\\",
+        "outputPath": "F:\\MiniChatApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ROLLO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
