@@ -14,45 +14,48 @@ namespace MiniChatApp
             // Railway nastavuje port zde, pokud není nastavena, použije 5000 jako výchozí
             var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
 
-            // Pøidání služeb do kontejneru DI (Dependency Injection)
+            // Pøidání služeb do kontejneru Dependency Injection (DI)
             builder.Services.AddControllersWithViews();
 
-            // Registrace SignalR služby pro realtime komunikaci
+            // Registrace SignalR služby pro real-time komunikaci (websockets apod.)
             builder.Services.AddSignalR();
 
-            // Pøipojení k databázi PostgreSQL pomocí connection stringu z appsettings.json
+            // Konfigurace Entity Framework Core pro pøipojení k PostgreSQL databázi
+            // Connection string se naèítá z appsettings.json v sekci "ConnectionStrings:DefaultConnection"
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            // Vytvoøení aplikace
+            // Vytvoøení instance webové aplikace se všemi nakonfigurovanými službami
             var app = builder.Build();
 
-            // Nastavení aplikace, aby naslouchala na zvoleném portu (všech IP adresách)
+            // Nastavení, na jakém URL a portu aplikace poslouchá
+            // Naslouchá na všech IP adresách a na portu, který poskytne Railway pøes env. promìnnou
             app.Urls.Add($"http://*:{port}");
 
-            // Povolení statických souborù (napø. CSS, JS, obrázky)
+            // Povolení servírování statických souborù (CSS, JS, obrázky)
             app.UseStaticFiles();
 
-            // Mapa pro SignalR hub na URL /chatHub
+            // Mapa (endpoint) pro SignalR hub - zde mùže klient pøistupovat k /chatHub pro realtime komunikaci
             app.MapHub<ChatHub>("/chatHub");
 
-            // Pokud nejde o vývojové prostøedí, nastavíme chytání výjimek a HSTS
+            // V produkèním režimu pøesmìrování na vlastní chybovou stránku a zapnutí HSTS (bezpeènost)
             if (!app.Environment.IsDevelopment())
             {
-                app.UseExceptionHandler("/Home/Error");
-                app.UseHsts();
+                app.UseExceptionHandler("/Home/Error");  // Zpracování chyb
+                app.UseHsts();                           // HTTP Strict Transport Security
             }
 
             // Pøesmìrování HTTP na HTTPS
+            // Pokud chceš, mùžeš tady pro Railway proxy HTTPS vypnout (napø. zakomentovat), pokud zpùsobuje problémy
             app.UseHttpsRedirection();
 
-            // Nastavení smìrování HTTP požadavkù
+            // Zapnutí smìrování požadavkù (routing)
             app.UseRouting();
 
-            // Povolení autorizace (pokud ji nìkde používáš)
+            // Zapnutí autorizace (pokud používáš nìjaké zabezpeèení)
             app.UseAuthorization();
 
-            // Nastavení výchozí trasy pro MVC kontrolery
+            // Nastavení výchozí MVC trasy: pokud není jinak zadáno, použije se kontroler Chat a akce Index
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Chat}/{action=Index}/{id?}");
@@ -62,4 +65,3 @@ namespace MiniChatApp
         }
     }
 }
-
