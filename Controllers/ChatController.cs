@@ -17,7 +17,7 @@ namespace MiniChat.Controllers
         {
             var messages = _context.Zpravy
                 .OrderBy(m => m.Cas)
-                .TakeLast(20)
+                .Take(20)
                 .ToList();
 
             return View(messages);

@@ -40,10 +40,28 @@ namespace MiniChatApp
 
             // V produkèním režimu pøesmìrování na vlastní chybovou stránku a zapnutí HSTS (bezpeènost)
             if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler(errorApp =>
+    {
+        errorApp.Run(async context =>
+        {
+            var errorFeature = context.Features.Get<Microsoft.AspNetCore.Diagnostics.IExceptionHandlerFeature>();
+            var exception = errorFeature?.Error;
+
+            if (exception != null)
             {
-                app.UseExceptionHandler("/Home/Error");  // Zpracování chyb
-                app.UseHsts();                           // HTTP Strict Transport Security
+                Console.WriteLine($"Exception handled: {exception}");
             }
+
+            context.Response.StatusCode = 500;
+            context.Response.ContentType = "text/plain";
+            await context.Response.WriteAsync("Internal Server Error");
+        });
+    });
+
+    app.UseHsts();
+}
+
 
             // Pøesmìrování HTTP na HTTPS
             // Pokud chceš, mùžeš tady pro Railway proxy HTTPS vypnout (napø. zakomentovat), pokud zpùsobuje problémy
