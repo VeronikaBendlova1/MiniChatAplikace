@@ -16,9 +16,8 @@ namespace MiniChat.Controllers
         public IActionResult Index()
         {
             var messages = _context.Zpravy
-                .OrderByDescending(m => m.Cas)
-                .Take(20)
                 .OrderBy(m => m.Cas)
+                .TakeLast(20)
                 .ToList();
 
             return View(messages);

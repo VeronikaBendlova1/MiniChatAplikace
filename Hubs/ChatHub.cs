@@ -7,7 +7,7 @@ namespace MiniChatApp.Hubs
     public class ChatHub : Hub
     {
         private readonly ApplicationDbContext _dbContext;
-        private static readonly Dictionary<string, string> TypingUsers = new();
+        private static readonly ConcurrentDictionary<string, string> TypingUsers = new();
 
         public ChatHub(ApplicationDbContext dbContext)
         {

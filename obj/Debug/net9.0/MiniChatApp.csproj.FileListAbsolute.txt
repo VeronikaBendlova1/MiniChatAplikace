@@ -395,3 +395,4 @@ H:\MiniChatApp\obj\Debug\net9.0\MiniChatApp.pdb
 H:\MiniChatApp\obj\Debug\net9.0\MiniChatApp.genruntimeconfig.cache
 H:\MiniChatApp\obj\Debug\net9.0\ref\MiniChatApp.dll
 H:\MiniChatApp\obj\Debug\net9.0\compressed\p1dvvuo8as-7t6drw14yz.gz
+H:\MiniChatApp\obj\Debug\net9.0\MiniChatApp.sourcelink.json
