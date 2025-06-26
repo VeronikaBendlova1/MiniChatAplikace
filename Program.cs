@@ -65,7 +65,7 @@ namespace MiniChatApp
 
             // Pøesmìrování HTTP na HTTPS
             // Pokud chceš, mùžeš tady pro Railway proxy HTTPS vypnout (napø. zakomentovat), pokud zpùsobuje problémy
-            app.UseHttpsRedirection();
+           // app.UseHttpsRedirection();
 
             // Zapnutí smìrování požadavkù (routing)
             app.UseRouting();

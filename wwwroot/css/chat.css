@@ -15,6 +15,7 @@ body {
     width: 100%;
     max-width: 500px;
     padding: 20px;
+    margin-top: 150px;
 }
 
 /* Hlavní box chatu */
@@ -26,6 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 600px;
+    margin-top: 50px;
 }
 
 /* Hlavièka */

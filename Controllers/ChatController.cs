@@ -22,7 +22,8 @@ namespace MiniChat.Controllers
         .OrderBy(m => m.Cas)             // Zase seřaď chronologicky
         .ToList();                       // Výsledek
 
-
+	Console.WriteLine($"✅ Načteno zpráv: {messages.Count}");
+            Console.WriteLine($"ahoj");
             return View(messages);
         }
 

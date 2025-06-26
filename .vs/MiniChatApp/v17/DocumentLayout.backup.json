@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\MiniChatApp\\",
+  "WorkspaceRootPath": "F:\\MiniChatApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|h:\\minichatapp\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|h:\\minichatapp\\wwwroot\\css\\chat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|f:\\minichatapp\\wwwroot\\css\\chat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|solutionrelative:wwwroot\\css\\chat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|h:\\minichatapp\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|f:\\minichatapp\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|solutionrelative:views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|h:\\minichatapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|f:\\minichatapp\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|h:\\minichatapp\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|f:\\minichatapp\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|h:\\minichatapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|f:\\minichatapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|h:\\minichatapp\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|f:\\minichatapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|f:\\minichatapp\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|solutionrelative:wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|h:\\minichatapp\\models\\zprava.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|f:\\minichatapp\\models\\zprava.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|solutionrelative:models\\zprava.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|h:\\minichatapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|f:\\minichatapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|h:\\minichatapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|f:\\minichatapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E80B2141-D57B-48DD-868A-D479093F10D8}|MiniChatApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -50,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "chat.css",
-              "DocumentMoniker": "H:\\MiniChatApp\\wwwroot\\css\\chat.css",
+              "DocumentMoniker": "F:\\MiniChatApp\\wwwroot\\css\\chat.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\chat.css",
-              "ToolTip": "H:\\MiniChatApp\\wwwroot\\css\\chat.css",
-              "RelativeToolTip": "wwwroot\\css\\chat.css",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "ToolTip": "F:\\MiniChatApp\\wwwroot\\css\\chat.css*",
+              "RelativeToolTip": "wwwroot\\css\\chat.css*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-05-29T10:26:41.695Z",
               "IsPinned": true,
@@ -68,26 +68,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "H:\\MiniChatApp\\Views\\Chat\\Index.cshtml",
+              "DocumentMoniker": "F:\\MiniChatApp\\Views\\Chat\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Chat\\Index.cshtml",
-              "ToolTip": "H:\\MiniChatApp\\Views\\Chat\\Index.cshtml",
+              "ToolTip": "F:\\MiniChatApp\\Views\\Chat\\Index.cshtml",
               "RelativeToolTip": "Views\\Chat\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-26T07:40:15.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ChatController.cs",
-              "DocumentMoniker": "H:\\MiniChatApp\\Controllers\\ChatController.cs",
+              "DocumentMoniker": "F:\\MiniChatApp\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
-              "ToolTip": "H:\\MiniChatApp\\Controllers\\ChatController.cs",
+              "ToolTip": "F:\\MiniChatApp\\Controllers\\ChatController.cs",
               "RelativeToolTip": "Controllers\\ChatController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T07:38:06.329Z",
               "EditorCaption": ""
@@ -96,9 +96,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Zprava.cs",
-              "DocumentMoniker": "H:\\MiniChatApp\\Models\\Zprava.cs",
+              "DocumentMoniker": "F:\\MiniChatApp\\Models\\Zprava.cs",
               "RelativeDocumentMoniker": "Models\\Zprava.cs",
-              "ToolTip": "H:\\MiniChatApp\\Models\\Zprava.cs",
+              "ToolTip": "F:\\MiniChatApp\\Models\\Zprava.cs",
               "RelativeToolTip": "Models\\Zprava.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -106,13 +106,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "H:\\MiniChatApp\\Program.cs",
+              "DocumentMoniker": "F:\\MiniChatApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "H:\\MiniChatApp\\Program.cs",
+              "ToolTip": "F:\\MiniChatApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAADwv1IAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T07:33:06.059Z",
               "EditorCaption": ""
@@ -121,9 +121,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "H:\\MiniChatApp\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "F:\\MiniChatApp\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "H:\\MiniChatApp\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "F:\\MiniChatApp\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -131,37 +131,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ChatHub.cs",
-              "DocumentMoniker": "H:\\MiniChatApp\\Hubs\\ChatHub.cs",
+              "DocumentMoniker": "F:\\MiniChatApp\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
-              "ToolTip": "H:\\MiniChatApp\\Hubs\\ChatHub.cs",
+              "ToolTip": "F:\\MiniChatApp\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "Hubs\\ChatHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T12:26:41.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "H:\\MiniChatApp\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "F:\\MiniChatApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "H:\\MiniChatApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\MiniChatApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-29T11:18:23.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T11:18:23.102Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "chat.js",
-              "DocumentMoniker": "H:\\MiniChatApp\\wwwroot\\js\\chat.js",
+              "DocumentMoniker": "F:\\MiniChatApp\\wwwroot\\js\\chat.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\chat.js",
-              "ToolTip": "H:\\MiniChatApp\\wwwroot\\js\\chat.js",
+              "ToolTip": "F:\\MiniChatApp\\wwwroot\\js\\chat.js",
               "RelativeToolTip": "wwwroot\\js\\chat.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -171,9 +170,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "appsettings.json",
-              "DocumentMoniker": "H:\\MiniChatApp\\appsettings.json",
+              "DocumentMoniker": "F:\\MiniChatApp\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "H:\\MiniChatApp\\appsettings.json",
+              "ToolTip": "F:\\MiniChatApp\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
