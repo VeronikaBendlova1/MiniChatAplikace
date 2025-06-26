@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniChatApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc8a27c6dceb9f365d3ebadb914f5f114ba39d68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15f526c628bfc21f5c4dc0ab45ad30fceec10882")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniChatApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniChatApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
