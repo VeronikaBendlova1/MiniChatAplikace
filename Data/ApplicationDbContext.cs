@@ -11,6 +11,6 @@ namespace MiniChatApp.Data;
             public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
                    : base(options) { }
 
-    public DbSet<Zprava> Zpravy { get; set; }
+    public DbSet<Zprava> Zpravy { get; set; } = null!;
     }
 

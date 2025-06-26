@@ -1,0 +1,15 @@
+H:\MiniChatApp\bin\Release\net6.0\publish\MiniChatApp.exe
+H:\MiniChatApp\bin\Release\net6.0\publish\appsettings.Development.json
+H:\MiniChatApp\bin\Release\net6.0\publish\appsettings.json
+H:\MiniChatApp\bin\Release\net6.0\publish\MiniChatApp.dll
+H:\MiniChatApp\bin\Release\net6.0\publish\MiniChatApp.runtimeconfig.json
+H:\MiniChatApp\bin\Release\net6.0\publish\MiniChatApp.pdb
+H:\MiniChatApp\bin\Release\net6.0\publish\Microsoft.EntityFrameworkCore.dll
+H:\MiniChatApp\bin\Release\net6.0\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\MiniChatApp\bin\Release\net6.0\publish\Microsoft.EntityFrameworkCore.Relational.dll
+H:\MiniChatApp\bin\Release\net6.0\publish\Microsoft.Extensions.Caching.Memory.dll
+H:\MiniChatApp\bin\Release\net6.0\publish\Microsoft.Extensions.DependencyInjection.dll
+H:\MiniChatApp\bin\Release\net6.0\publish\Npgsql.dll
+H:\MiniChatApp\bin\Release\net6.0\publish\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+H:\MiniChatApp\bin\Release\net6.0\publish\System.Diagnostics.DiagnosticSource.dll
+H:\MiniChatApp\bin\Release\net6.0\publish\MiniChatApp.deps.json

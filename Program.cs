@@ -14,13 +14,15 @@ namespace MiniChatApp
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddSignalR(); // Registrace služby
-            
 
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+                options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
             // MUSÍ BÝT PØED Build();
 
             var app = builder.Build();
+
+            // Pøidání podpory pro statické soubory (css, js, obrázky atd.)
+            app.UseStaticFiles();
 
             app.MapHub<ChatHub>("/chatHub");
 
@@ -28,24 +30,21 @@ namespace MiniChatApp
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
-            
-
             app.UseHttpsRedirection();
+
             app.UseRouting();
 
             app.UseAuthorization();
 
-            app.MapStaticAssets();
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Chat}/{action=Index}/{id?}")
-                .WithStaticAssets();
+                pattern: "{controller=Chat}/{action=Index}/{id?}");
 
             app.Run();
         }
     }
 }
+
