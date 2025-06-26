@@ -1,0 +1,114 @@
+﻿@{
+    Layout = null;
+    ViewData["Title"] = "Chat";
+}
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MiniChat</title>
+
+    <!-- Vlastní CSS pro stylování -->
+    <link rel="stylesheet" href="~/css/chat.css" asp-append-version="true" />
+
+    <!-- SignalR knihovna z CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+</head>
+<body>
+    <!-- Obalovací element pro vycentrování -->
+    <div class="chat-wrapper">
+        <div class="chat-box">
+            <!-- Hlavička chatu -->
+            <header>
+                <h1>💬 MiniChat</h1>
+                <p class="subtitle">Přátelský mini-komunikační prostor</p>
+            </header>
+
+            <!-- Sekce vstupů -->
+            <div class="inputs">
+                <!-- Jméno uživatele -->
+                <input type="text" id="username" placeholder="Zadej své jméno" />
+
+                <!-- Text zprávy + tlačítko odeslat -->
+                <div class="message-row">
+                    <input type="text" id="messageInput" placeholder="Napiš zprávu..." />
+                    <button onclick="sendMessage()">📨</button>
+                </div>
+            </div>
+
+            <!-- Seznam přijatých zpráv -->
+            <ul id="messagesList" class="messages"></ul>
+
+            <!-- Indikátor psaní -->
+            <div id="typingIndicator" class="typing-indicator"></div>
+        </div>
+    </div>
+
+    <script>
+        // Navázání spojení se SignalR hubem
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/chatHub")
+            .build();
+
+        // Přístup k HTML prvkům
+        const usernameInput = document.getElementById("username");
+        const messageInput = document.getElementById("messageInput");
+        const messagesList = document.getElementById("messagesList");
+        const typingIndicator = document.getElementById("typingIndicator");
+
+        // Přijetí zprávy od serveru a její zobrazení v seznamu
+        connection.on("ReceiveMessage", (user, message, cas) => {
+            const li = document.createElement("li");
+            const time = new Date(cas).toLocaleTimeString();
+            li.innerHTML = `<span class="time">${time}</span> <strong>${user}:</strong> ${message}`;
+            messagesList.appendChild(li);
+            messagesList.scrollTop = messagesList.scrollHeight; // Scroll dolů
+        });
+
+        // Zobrazení indikátoru, že někdo píše
+        connection.on("UserTyping", (user) => {
+            typingIndicator.textContent = `${user} právě píše...`;
+        });
+
+        // Skrytí indikátoru psaní
+        connection.on("UserStoppedTyping", () => {
+            typingIndicator.textContent = "";
+        });
+
+        // Funkce pro odeslání zprávy
+        async function sendMessage() {
+            const user = usernameInput.value.trim();
+            const message = messageInput.value.trim();
+            if (user && message) {
+                await connection.invoke("SendMessage", user, message);
+                messageInput.value = ""; // Vyčištění pole po odeslání
+            }
+        }
+
+        // Odeslání zprávy klávesou Enter
+        messageInput.addEventListener("keydown", (e) => {
+            if (e.key === "Enter") {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+
+        // Signalizace psaní
+        let typingTimeout;
+        messageInput.addEventListener("input", () => {
+            if (typingTimeout) clearTimeout(typingTimeout);
+
+            connection.invoke("Typing", usernameInput.value);
+
+            typingTimeout = setTimeout(() => {
+                connection.invoke("StoppedTyping", usernameInput.value);
+            }, 1500);
+        });
+
+        // Zahájení připojení
+        connection.start().catch(err => console.error(err));
+    </script>
+</body>
+</html>
